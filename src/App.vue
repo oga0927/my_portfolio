@@ -21,23 +21,11 @@
         dense
       >
         <v-list-item-group>
-          <v-list-item>
-            <v-list-item-title>HOME</v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-title>About</v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-title>Portfolio</v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-title>Skill</v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-title>Contact</v-list-item-title>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-title>予備</v-list-item-title>
+          <v-list-item
+            v-for="(menuItem, index) in menuItems"
+            :key="index"
+          >
+            <v-list-item-title>{{ menuItem.name }}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

@@ -19,10 +19,6 @@ export default {
     {
       name: 'Contact',
       url: '#'
-    },
-    {
-      name: 'ACCESS',
-      url: '#'
     }
   ]
 }
