@@ -6,7 +6,6 @@
         dark
       >
         <v-toolbar-title>MyPortfolio</v-toolbar-title>
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
         <v-tabs>
           <v-tab
             v-for="(menuItem, index) in menuItems"
@@ -15,7 +14,10 @@
             {{ menuItem.name }}
           </v-tab>
         </v-tabs>
+        <!-- ハンバーガーアイコン -->
+        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       </v-app-bar>
+
       <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
       サイドメニューの一部がヘッダーから隠れたりするのを防ぐ。 -->
       <v-navigation-drawer
@@ -55,9 +57,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .v-toolbar__title {
-    overflow: visible !important;
-    margin-right: 50px !important;
-  }
+.v-toolbar__title {
+  overflow: visible !important;
+  margin-right: 50px !important;
+}
 
+.v-app-bar__nav-icon {
+  // @include display_pc {
+  //   display: none !important;
+  // }
+}
 </style>
