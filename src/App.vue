@@ -57,14 +57,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/sass/_mixin.scss";
+
 .v-toolbar__title {
   overflow: visible !important;
   margin-right: 50px !important;
 }
 
 .v-app-bar__nav-icon {
-  // @include display_pc {
-  //   display: none !important;
-  // }
+  @include display_pc {
+    display: none !important;
+  }
 }
 </style>
