@@ -1,60 +1,64 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+    <header>
+      <v-app-bar
+        app
+        dark
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
 
-    <v-main>
-      <HelloWorld/>
-    </v-main>
+        <v-toolbar-title>MyPortfolio</v-toolbar-title>
+        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      </v-app-bar>
+      <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
+      サイドメニューの一部がヘッダーから隠れたりするのを防ぐ。 -->
+      <v-navigation-drawer
+        v-model="drawer"
+        fixed
+        temporary
+      >
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item-group>
+          <v-list-item>
+            <v-list-item-title>HOME</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>About</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>Portfolio</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>Skill</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>Contact</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title>予備</v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+      </v-navigation-drawer>
+    </header>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import constants from './common/constants'
 
 export default {
-  name: 'App',
-
-  components: {
-    HelloWorld
-  },
-
-  data: () => ({
-    //
-  })
+  data () {
+    return {
+      drawer: false,
+      menuItems: constants.menuItems
+    }
+  }
 }
 </script>
+
+<style scoped>
+
+</style>
