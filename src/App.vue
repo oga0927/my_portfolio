@@ -5,9 +5,16 @@
         app
         dark
       >
-
         <v-toolbar-title>MyPortfolio</v-toolbar-title>
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+        <v-tabs>
+          <v-tab
+            v-for="(menuItem, index) in menuItems"
+            :key="index"
+          >
+            {{ menuItem.name }}
+          </v-tab>
+        </v-tabs>
       </v-app-bar>
       <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
       サイドメニューの一部がヘッダーから隠れたりするのを防ぐ。 -->
@@ -47,6 +54,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .v-toolbar__title {
+    overflow: visible !important;
+    margin-right: 50px !important;
+  }
 
 </style>
