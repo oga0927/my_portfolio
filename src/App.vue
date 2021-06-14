@@ -1,70 +1,16 @@
 <template>
   <v-app>
-    <header>
-      <v-app-bar
-        app
-        dark
-      >
-        <v-toolbar-title>MyPortfolio</v-toolbar-title>
-        <v-tabs>
-          <v-tab
-            v-for="(menuItem, index) in menuItems"
-            :key="index"
-          >
-            {{ menuItem.name }}
-          </v-tab>
-        </v-tabs>
-        <!-- ハンバーガーアイコン -->
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      </v-app-bar>
-
-      <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
-      サイドメニューの一部がヘッダーから隠れたりするのを防ぐ。 -->
-      <v-navigation-drawer
-        v-model="drawer"
-        fixed
-        temporary
-      >
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item-group>
-          <v-list-item
-            v-for="(menuItem, index) in menuItems"
-            :key="index"
-          >
-            <v-list-item-title>{{ menuItem.name }}</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-      </v-navigation-drawer>
-    </header>
+    <AppHeader/>
   </v-app>
 </template>
 
 <script>
-import constants from './common/constants'
+import AppHeader from './components/AppHeader.vue'
 
 export default {
-  data () {
-    return {
-      drawer: false,
-      menuItems: constants.menuItems
-    }
+  name: 'App',
+  components: {
+    AppHeader
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.v-toolbar__title {
-  overflow: visible !important;
-  margin-right: 50px !important;
-}
-
-.v-app-bar__nav-icon {
-  // @include display_pc {
-  //   display: none !important;
-  // }
-}
-</style>
