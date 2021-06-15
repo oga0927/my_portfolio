@@ -1,11 +1,12 @@
 <template>
-  <section class="about">
-    <h2>about</h2>
-  </section>
+  <a :href="url">リンクA</a>
 </template>
-
 <script>
 export default {
-  name: 'about'
+  data () {
+    return {
+      url: '/about'
+    }
+  }
 }
 </script>
