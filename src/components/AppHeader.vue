@@ -5,10 +5,12 @@
         dark
       >
         <v-toolbar-title>MyPortfolio</v-toolbar-title>
-        <v-tabs>
+        <v-tabs
+        >
           <v-tab
             v-for="(menuItem, index) in menuItems"
             :key="index"
+            :to="menuItem.url"
           >
             {{ menuItem.name }}
           </v-tab>
@@ -32,6 +34,7 @@
           <v-list-item
             v-for="(menuItem, index) in menuItems"
             :key="index"
+            :to="menuItem.url"
           >
             <v-list-item-title>{{ menuItem.name }}</v-list-item-title>
           </v-list-item>
