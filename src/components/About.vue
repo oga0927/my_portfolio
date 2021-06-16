@@ -3,7 +3,6 @@
     <a :href="URL">リンク</a>
   </section>
 </template>
-
 <script>
 export default {
   data () {
