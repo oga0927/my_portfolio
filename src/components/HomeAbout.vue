@@ -1,11 +1,28 @@
 <template>
   <section class="home-about">
-
+    <div class="section__title">
+      <div class="section__title-text">01. About Me</div>
+    </div>
+    <!-- ここから追加 -->
+    <v-container>
+      <v-row class="home-about__contents">
+        <v-col md="5" class="home-about__contents-img">
+          <img src="../assets/img/IMG_6093 2.jpg" alt="" class="img-fluid">
+        </v-col>
+        <v-col md="5" class="home-about__contents-text">
+          <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        </v-col>
+      </v-row>
+    </v-container>
+    <!-- ここまで追加 -->
   </section>
 </template>
 
 <script>
-export default {
-
-}
 </script>
+
+<style lang="scss" scoped>
+@import "@/assets/sass/_parts.scss";
+
+</style>
