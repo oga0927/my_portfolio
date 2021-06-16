@@ -74,6 +74,7 @@ export default {
 
 .v-tabs {
   display: none;
+  display: none;
 
   @include display_pc {
     display: block !important;
