@@ -1,5 +1,7 @@
 <template>
-  <a :href="url">リンクA</a>
+  <section class="about">
+    <a :href="URL">リンク</a>
+  </section>
 </template>
 <script>
 export default {
