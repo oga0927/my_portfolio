@@ -25,4 +25,15 @@
 <style lang="scss" scoped>
 @import "@/assets/sass/_parts.scss";
 
+.home-about__contents {
+  margin-top: 20px;
+
+  &-img {
+    text-align: center;
+  }
+
+  &-text {
+    word-wrap: break-word;
+  }
+}
 </style>
