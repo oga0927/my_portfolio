@@ -15,7 +15,7 @@
 @import "@/assets/sass/_mixin.scss";
 
   .home-hero__content {
-    background: url("../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg");
+    background: url("../assets/img/nathan-anderson-L95xDkSSuWw-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     width: 100%;
