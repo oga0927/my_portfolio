@@ -3,8 +3,8 @@
     <v-container fluid fill-height class="home-hero__content">
       <v-row>
         <v-col class="home-hero__content-text">
-          <p>Welcome to my website.</p>
-          <p>OGA Portfolio</p>
+          <p>YOUICHI OGASAWARA</p>
+          <p class="sub-title">PORTFORIO SITE</p>
         </v-col>
       </v-row>
     </v-container>
@@ -28,11 +28,16 @@
     &-text {
       font-size: 28px;
       padding-left: 50px;
-      color: #232323;
+      color: #fff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
       @include display_pc {
         font-size: 40px;
       }
     }
+  }
+
+  .sub-title {
+    font-size: 28px;
   }
 </style>
