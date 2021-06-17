@@ -1,19 +1,19 @@
 <template>
-<v-col>
   <v-row class="button">
-    <v-btn
-      large
-      color="error"
-      min-width="300"
-      :to="url"
-    >
-      {{ buttonText }}
-    </v-btn>
+    <v-col>
+      <v-btn
+        large
+        color="error"
+        min-width="300"
+        :to="url"
+      >
+        ＞＞{{buttonText}}
+      </v-btn>
+    </v-col>
   </v-row>
-</v-col>
 </template>
-
 <script>
+// ここから追加
 export default {
   props: {
     buttonText: {
@@ -26,10 +26,10 @@ export default {
     }
   }
 }
+// ここまで追加
 </script>
-
 <style lang="scss">
-  .button {
-    text-align: center;
-  }
+.button {
+  text-align: center;
+}
 </style>

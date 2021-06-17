@@ -14,12 +14,24 @@
           <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         </v-col>
       </v-row>
+      <AppButton :button-text="buttonText" :url="url"/>
     </v-container>
     <!-- ここまで追加 -->
   </section>
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      buttonText: '詳しくみる',
+      url: '/about'
+    }
+  }
+  // components: {
+  //   AppButton
+  // }
+}
 </script>
 
 <style lang="scss" scoped>
