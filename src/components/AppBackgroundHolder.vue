@@ -25,11 +25,12 @@ export default {
 @import "@/assets/sass/_mixin.scss";
 
 .background-holder__content {
-  background: url("../assets/img/home-hero.png");
+  background: url("../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg");
   background-size: cover;
   background-position: center center;
   width: 100%;
   height: 30vh;
+  padding: 10px;
 
   &-text {
     color: white;
