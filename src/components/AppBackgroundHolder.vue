@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style  lang="scss" scoped>
+@import "@/assets/sass/_mixin.scss";
+
 .background-holder__content {
   background: url("../assets/img/home-hero.png");
   background-size: cover;
