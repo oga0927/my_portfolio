@@ -21,18 +21,28 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import AppButton from './AppButton.vue'
 
+=======
+>>>>>>> main
 export default {
   data () {
     return {
       buttonText: '詳しくみる',
       url: '/about'
     }
+<<<<<<< HEAD
   },
   components: {
     AppButton
   }
+=======
+  }
+  // components: {
+  //   AppButton
+  // }
+>>>>>>> main
 }
 </script>
 
