@@ -30,6 +30,7 @@ export default {
   background-position: center center;
   width: 100%;
   height: 30vh;
+  padding: 10px;
 
   &-text {
     color: white;
