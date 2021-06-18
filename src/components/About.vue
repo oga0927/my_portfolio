@@ -1,13 +1,17 @@
 <template>
   <section class="about">
-    <a :href="URL">リンク</a>
+    <AppBackgroundHolder :title="title"/>
   </section>
 </template>
 <script>
+import AppBackgroundHolder from './AppBackgroundHolder.vue'
 export default {
+  components: {
+    AppBackgroundHolder
+  },
   data () {
     return {
-      url: '/about'
+      title: 'About'
     }
   }
 }
