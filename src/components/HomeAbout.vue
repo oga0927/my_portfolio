@@ -14,15 +14,41 @@
           <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         </v-col>
       </v-row>
+      <AppButton :button-text="buttonText" :url="url"/>
     </v-container>
     <!-- ここまで追加 -->
   </section>
 </template>
 
 <script>
+import AppButton from './AppButton.vue'
+
+export default {
+  data () {
+    return {
+      buttonText: '詳しくみる',
+      url: '/about'
+    }
+  },
+  components: {
+    AppButton
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/sass/_parts.scss";
 
+.home-about__contents {
+  margin-top: 20px;
+  justify-content: center;
+
+  &-img {
+    text-align: center;
+  }
+
+  &-text {
+    word-wrap: break-word;
+  }
+}
 </style>
