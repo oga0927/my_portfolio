@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home.vue'
 import About from '@/components/About.vue'
-// import PortFolio from '@/components/PortFolio.vue'
+import Work from '@/components/Work.vue'
 // import Skill from '@/components/Skill.vue'
 // import Contact from '@/components/Contact.vue'
 
@@ -19,12 +19,12 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: About
+    },
+    {
+      path: '/work',
+      name: 'work',
+      component: Work
     }
-    // {
-    //   path: '/portfolio',
-    //   name: 'portfolio',
-    //   component: PortFolio
-    // },
     // {
     //   path: '/skill',
     //   name: 'skill',
@@ -35,5 +35,11 @@ export default new Router({
     //   name: 'contact',
     //   component: Contact
     // }
-  ]
+  ],
+  // ここから追加
+  scrollBehavior (to, from, savedPosition) {
+    // ハッシュがある時にはその地点へとスクロールする
+    return to.hash ? { selector: to.hash, offset: { x: 0, y: 64 } } : { x: 0, y: 0 }
+  }
+  // ここまで追加
 })
