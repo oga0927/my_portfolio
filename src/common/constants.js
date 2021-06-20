@@ -9,8 +9,8 @@ export default {
       url: '/about'
     },
     {
-      name: 'Portfolio',
-      url: '/portfolio'
+      name: 'WORK',
+      url: '/work'
     },
     {
       name: 'Skill',
@@ -21,18 +21,20 @@ export default {
       url: 'contact'
     }
   ],
+  // ここから追加
   workItems: [
     {
-      src: require('../assets/img/b27a21c6cd2885a72dc862e482dfbfca.jpg'),
+      src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
       url: '/work#work-1'
     },
     {
-      src: require('../assets/img/acda5d68345825119ccbf6c9b7892451.jpg'),
-      url: '/work#work-2'
+      src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
+      url: '/work#work-1'
     },
     {
-      src: require('../assets/img/acda5d68345825119ccbf6c9b7892451.jpg'),
-      url: '/work#work-3'
+      src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
+      url: '/work#work-1'
     }
   ]
+  // ここまで追加
 }
