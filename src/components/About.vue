@@ -65,6 +65,9 @@
                   <p>2012年5月:京急開発株式会社 就職</p>
                 </div>
               </div>
+              <div class="personal-text-indent">
+                <p></p>
+              </div>
             </v-list-item-content>
           </v-list-item>
 
