@@ -22,7 +22,7 @@
     height: 50vh;
 
     @include display_pc {
-      height: 90vh;
+      height: 95vh;
     }
 
     &-text {
