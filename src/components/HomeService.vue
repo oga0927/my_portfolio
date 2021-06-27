@@ -1,7 +1,7 @@
 <template>
   <section class="home-service">
     <div class="section__title">
-      <div class="section__title-text">03. My Service</div>
+      <div class="section__title-text">02. My Service</div>
     </div>
     <v-container>
       <v-row class="home-service__contents">
@@ -23,7 +23,7 @@
           >
 
             <div class="home-service__card-img">
-              <img class="icon--service" src="../assets/img/HOTELトップ画.png" alt="コーディング">
+              <img class="icon--service" src="../assets/img/hotel.jpg" alt="コーディング">
             </div>
           </v-card>
         </v-col>
