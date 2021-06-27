@@ -12,10 +12,10 @@ export default {
       name: 'WORK',
       url: '/work'
     },
-    {
-      name: 'Skill',
-      url: '/skill'
-    },
+    // {
+    //   name: 'Skill',
+    //   url: '/skill'
+    // },
     {
       name: 'Contact',
       url: 'contact'
