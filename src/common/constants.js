@@ -17,19 +17,19 @@ export default {
     //   url: '/skill'
     // },
     {
-      name: 'Contact',
-      url: 'contact'
+      name: 'Other',
+      url: 'other'
     }
   ],
   // ここから追加
   workItems: [
     {
       src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
-      url: '/work#work-1'
+      url: '/work'
     },
     {
       src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
-      url: '/work#work-1'
+      url: '/work'
     },
     {
       src: require('../assets/img/starfish-on-summer-sunny-beach-at-ocean-background-travel-vacation-concepts_1423-276.jpg'),
