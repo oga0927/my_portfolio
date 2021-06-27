@@ -26,11 +26,6 @@ export default new Router({
       component: Work
     }
     // {
-    //   path: '/skill',
-    //   name: 'skill',
-    //   component: Skill
-    // },
-    // {
     //   path: '/contact',
     //   name: 'contact',
     //   component: Contact
