@@ -9,10 +9,24 @@
       Vue.js
     </v-card-title>
       <v-row>
-        <v-col md="5" class="about__contents-img">
+        <v-col sm="5" md="5" col="12" class="about__contents-img">
+          <v-btn
+            class="ma-2"
+            color="primary"
+            dark
+          >
+            制作したアプリのリンク
+          <v-icon
+            dark
+            right
+          >
+            mdi-checkbox-marked-circle
+          </v-icon>
+            <a href="https://shalibo.netlify.app/"></a>
+          </v-btn>
           <img src="../assets/img/shalibo.jpg" alt="" class="img-fluid">
         </v-col>
-      </v-row>
+      <v-col sm="5" md="5" col="12">
       <div class="personal" flex>
         <v-icon xlarge color="orange darken-2" size="48">
           mdi-account
@@ -84,21 +98,38 @@
       <v-list-item class="personal__content__title">
         <v-list-item-content>
           <div class="content-subtitle">
-            <p>Vue.js / Vue/CLI / VueRouter / Vuex / Vuetify / JavaScript / CSS /
-              GoogleBooksAPI / Webサーバー: Netlify / DB: WebStorage(LocalStorage) /
-              DB(認証のみ): Firebase(Authentication)</p>
+            <p>Vue.js / Vue/CLI / VueRouter / Vuex / Vuetify / JavaScript / CSS</p>
+            <p>API: GoogleBooksAPI</p>
+            <p>Webサーバー: Netlify</p>
+            <p>DB: WebStorage(LocalStorage)</p>
+            <p>DB(認証のみ): Firebase(Authentication)</p>
           </div>
         </v-list-item-content>
       </v-list-item>
-
+        </v-col>
+      </v-row>
     <v-card-title class="justify-center products-title">
       共同開発
     </v-card-title>
       <v-row>
-        <v-col md="5" class="about__contents-img">
+        <v-col sm="5" md="5" col="12" class="about__contents-img">
+          <v-btn
+            class="ma-2"
+            color="primary"
+            dark
+          >
+            制作したアプリのリンク
+          <v-icon
+            dark
+            right
+          >
+            mdi-checkbox-marked-circle
+          </v-icon>
+            <a href="https://tenkuehotel-r018.netlify.app/"></a>
+          </v-btn>
           <img src="../assets/img/hotel.jpg" alt="" class="img-fluid">
         </v-col>
-      </v-row>
+      <v-col sm="5" md="5" col="12">
       <div class="personal" flex>
         <v-icon xlarge color="orange darken-2" size="48">
           mdi-account
@@ -111,10 +142,9 @@
         <v-list-item-content>
           <div class="content-subtitle">
             <p>・共同開発での開発フロー、コミュニケーションの取り方、
-              Git/GitHubの使い方を経験することが目的</p>
+                  Git/GitHubの使い方を経験することが目的</p>
             <p>・開発期間は3週間</p>
             <p>・現役エンジニア1名＋3名で制作</p>
-
           </div>
         </v-list-item-content>
       </v-list-item>
@@ -132,7 +162,7 @@
           <div class="content-subtitle">
             <h3>
               <v-icon>mdi-github</v-icon>
-              <a href="https://tenkuehotel-r018.netlify.app/">GitHub</a>
+              <a href="https://github.com/jojojo0501/tenkue-hotel-r018">GitHub</a>
             </h3>
           </div>
         </v-list-item-content>
@@ -148,16 +178,14 @@
       <v-list-item class="personal__content__title">
         <v-list-item-content>
           <div class="content-subtitle">
-            <p>チームリーダーを担当</p>
-            <p>・読んだ本の内容を質問に答えてアウトプット</p>
-            <p>・メインビューの配色には暖色をメインに作成。</p>
-            <p>・ファーストビューは一眼でわかる画像と、何をするアプリなのかが伝わるように作成</p>
-            <p>・フォームにバリデーションを実装</p>
-            <p>・目のマークをクリックで入力したパスワードを確認。</p>
-            <p>・登録済みのアドレスはアラートでお知らせ</p>
-            <p>・再描画でLocalStorageのデータが初期化されないよう設定</p>
-            <p>・vuex-persistedstateをインストールで、vuexのstateの中身を維持</p>
-            <p>・vuex-persistedstateの設定をvuexのStoreのpluginsに設定</p>
+            <p>・チームリーダーを担当</p>
+            <p>・Trelloのガントチャートでタスク管理</p>
+            <p>・メインビューの配色には暖色をメインに作成</p>
+            <p>・GitHubでソースコードを管理</p>
+            <p>・ブランチの作成</p>
+            <p>・CSS設計：FLOCSS記法の学習</p>
+            <p>・Gitコマンド（プルリク等）の操作</p>
+            <p>・slackで進捗の報告</p>
           </div>
         </v-list-item-content>
       </v-list-item>
@@ -172,12 +200,17 @@
       <v-list-item class="personal__content__title">
         <v-list-item-content>
           <div class="content-subtitle">
-            <p>Vue.js / Vue/CLI / VueRouter / Vuex / Vuetify / JavaScript / CSS /
-              GoogleBooksAPI / Webサーバー: Netlify / DB: WebStorage(LocalStorage) /
-              DB(認証のみ): Firebase(Authentication)</p>
+            <p>HTML / CSS / JavaScript / jQuery / EJS / Node.js</p>
+            <p>CSS設計：FLOCSS</p>
+            <p>Webサーバー: Netlify</p>
+            <p>制作担当ページ: Header / ハンバーガーメニュー / Footer / AreaGuide</p>
+            <p>ツール: gulp / Webpack / Trello</p>
           </div>
         </v-list-item-content>
       </v-list-item>
+        </v-col>
+
+      </v-row>
     </v-container>
   </section>
 </template>
