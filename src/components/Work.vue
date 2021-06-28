@@ -259,10 +259,132 @@
               </div>
             </v-list-item-content>
           </v-list-item>
+          </v-col>
+        </v-row>
+      </v-row>
+      <v-row>
+        <v-card-title class="justify-center products-title">
+          共同開発
+        </v-card-title>
+          <v-row justify="center" align-content="center">
+            <v-col
+              sm="5"
+              md="6"
+              col="12"
+              class="about__contents-img"
+            >
+              <v-btn
+                class="ma-2"
+                color="primary"
+                dark
+              >
+                制作したアプリのリンク
+              <v-icon
+                dark
+                right
+              >
+                mdi-checkbox-marked-circle
+              </v-icon>
+                <a href="https://tenkuehotel-r018.netlify.app/"></a>
+              </v-btn>
+              <img
+                src="../assets/img/hotel.jpg"
+                alt=""
+                class="img-fluid"
+              >
             </v-col>
-
-          </v-row>
-
+            <v-col
+              sm="5"
+              md="6"
+              col="12"
+            >
+            <div class="personal" flex>
+            <v-icon
+              xlarge
+              color="orange darken-2"
+              size="48"
+            >
+              mdi-pin
+            </v-icon>
+            <div class="content__title">
+              <h2>アプリの概要</h2>
+            </div>
+          </div>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <p>・共同開発での開発フロー、コミュニケーションの取り方、
+                      Git/GitHubの使い方を経験することが目的</p>
+                <p>・開発期間は3週間</p>
+                <p>・現役エンジニア1名＋3名で制作</p>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          <div class="personal" flex>
+            <v-icon
+              xlarge
+              color="orange darken-2"
+              size="48"
+            >
+              mdi-hammer-wrench
+            </v-icon>
+            <div class="content__title">
+              <h2>ソースコード</h2>
+            </div>
+          </div>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <h3>
+                  <v-icon>mdi-github</v-icon>
+                  <a href="https://github.com/jojojo0501/tenkue-hotel-r018">GitHub</a>
+                </h3>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          <div class="personal" flex>
+            <v-icon xlarge color="orange darken-2" size="48">
+              mdi-jabber
+            </v-icon>
+            <div class="content__title">
+              <h2>こだわりのポイント</h2>
+            </div>
+          </div>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <p>・チームリーダーを担当</p>
+                <p>・Trelloのガントチャートでタスク管理</p>
+                <p>・メインビューの配色には暖色をメインに作成</p>
+                <p>・GitHubでソースコードを管理</p>
+                <p>・ブランチの作成</p>
+                <p>・CSS設計：FLOCSS記法の学習</p>
+                <p>・Gitコマンド（プルリク等）の操作</p>
+                <p>・slackで進捗の報告</p>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          <div class="personal" flex>
+            <v-icon xlarge color="orange darken-2" size="48">
+              mdi-thumb-up
+            </v-icon>
+            <div class="content__title">
+              <h2>使用技術</h2>
+            </div>
+          </div>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <p>HTML / CSS / JavaScript / jQuery / EJS / Node.js</p>
+                <p>CSS設計：FLOCSS</p>
+                <p>Webサーバー: Netlify</p>
+                <p>制作担当ページ: Header / ハンバーガーメニュー / Footer / AreaGuide</p>
+                <p>ツール: gulp / Webpack / Trello</p>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          </v-col>
+        </v-row>
       </v-row>
     </v-container>
   </section>
