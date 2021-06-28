@@ -1,25 +1,24 @@
 <template>
   <header>
-      <v-app-bar
-        app
-        dark
-        absolute
-      >
-        <v-toolbar-title>MyPortfolio</v-toolbar-title>
-        <v-tabs
-        >
-          <v-tab
-            v-for="(menuItem, index) in menuItems"
-            :key="index"
-            :to="menuItem.url"
-          >
-            {{ menuItem.name }}
-          </v-tab>
-        </v-tabs>
-        <!-- ハンバーガーアイコン -->
-          <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      </v-app-bar>
-
+    <v-app-bar
+      app
+      dark
+      absolute
+    >
+      <v-toolbar-title>MyPortfolio</v-toolbar-title>
+      <v-tabs
+    >
+      <v-tab
+        v-for="(menuItem, index) in menuItems"
+        :key="index"
+        :to="menuItem.url"
+    >
+      {{ menuItem.name }}
+      </v-tab>
+    </v-tabs>
+      <!-- ハンバーガーアイコン -->
+        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+    </v-app-bar>
       <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
       サイドメニューの一部がヘッダーから隠れたりするのを防ぐ。 -->
       <v-navigation-drawer
@@ -32,18 +31,18 @@
         nav
         dense
       >
-        <v-list-item-group>
-          <v-list-item
-            v-for="(menuItem, index) in menuItems"
-            :key="index"
-            :to="menuItem.url"
-          >
-            <v-list-item-title>{{ menuItem.name }}</v-list-item-title>
+      <v-list-item-group>
+        <v-list-item
+          v-for="(menuItem, index) in menuItems"
+          :key="index"
+          :to="menuItem.url"
+        >
+          <v-list-item-title>{{ menuItem.name }}</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
-      </v-navigation-drawer>
-    </header>
+    </v-navigation-drawer>
+  </header>
 </template>
 
 <script>
