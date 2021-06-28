@@ -3,7 +3,6 @@
       <v-app-bar
         app
         dark
-
         absolute
       >
         <v-toolbar-title>MyPortfolio</v-toolbar-title>
