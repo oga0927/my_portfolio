@@ -4,6 +4,7 @@
     <div class="profile__title">
       <div class="profile__title-text">Portfolio</div>
     </div>
+
     <v-container>
       <v-row>
         <v-col md="5" class="about__contents-img">
@@ -20,6 +21,7 @@
             <v-list-item
               v-for="(item, i) in items"
               :key="i"
+              :href="item.url"
             >
               <v-list-item-icon>
                 <v-icon v-text="item.icon"></v-icon>
@@ -32,6 +34,7 @@
           </v-list>
         </v-col>
       </v-row>
+
       <div class="personal" flex>
         <v-icon xlarge color="orange darken-2" size="48">
           mdi-account
@@ -178,15 +181,18 @@ export default {
       items: [
         {
           icon: 'mdi-github',
-          text: 'github'
+          text: 'github',
+          url: 'https://github.com/oga0927'
         },
         {
           icon: 'mdi-twitter',
-          text: 'twitter'
+          text: 'twitter',
+          url: 'https://twitter.com/oga_yo'
         },
         {
           icon: 'mdi-border-color',
-          text: 'qiita'
+          text: 'qiita',
+          url: 'https://qiita.com/oga0927'
         }
       ]
     }
