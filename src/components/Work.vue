@@ -2,12 +2,12 @@
   <section class="about">
     <!-- <AppBackgroundHolder :title="title"/> -->
     <div class="product__title">
-      <div class="product__title-text">Products</div>
+      <div class="product__title-text">Vue.js</div>
     </div>
     <v-container>
       <v-row>
-        <v-card-title class="justify-center products-title">
-          Vue.js
+        <v-card-title class="justify-center products-title font-weight-bold">
+          読書管理アプリ
         </v-card-title>
         <v-row justify="center" align-content="center">
           <v-col
@@ -99,13 +99,13 @@
             <v-list-item class="personal__content__title">
               <v-list-item-content>
                 <div class="content-subtitle">
+                  <p>・本の検索機能(Ajax)</p>
+                  <p>・投稿内容編集機能(CRUD)</p>
+                  <p>・本の登録機能(CRUD)</p>
                   <p>・検索、記録、保存の3ステップ</p>
                   <p>・読んだ本の内容を質問に答えてアウトプット</p>
-                  <p>・メインビューの配色には暖色をメインに作成。</p>
                   <p>・ファーストビューは一眼でわかる画像と、何をするアプリなのかが伝わるように作成</p>
                   <p>・フォームにバリデーションを実装</p>
-                  <p>・目のマークをクリックで入力したパスワードを確認。</p>
-                  <p>・登録済みのアドレスはアラートでお知らせ</p>
                   <p>・再描画でLocalStorageのデータが初期化されないよう設定</p>
                   <p>・vuex-persistedstateをインストールで、vuexのstateの中身を維持</p>
                   <p>・vuex-persistedstateの設定をvuexのStoreのpluginsに設定</p>
@@ -135,12 +135,12 @@
                 </div>
               </v-list-item-content>
             </v-list-item>
-            </v-col>
-          </v-row>
+          </v-col>
+        </v-row>
       </v-row>
       <v-row>
-        <v-card-title class="justify-center products-title">
-          共同開発
+        <v-card-title class="justify-center products-title font-weight-bold">
+          マイポートフォリオ
         </v-card-title>
           <v-row justify="center" align-content="center">
             <v-col
@@ -164,7 +164,7 @@
                 <a href="https://tenkuehotel-r018.netlify.app/"></a>
               </v-btn>
               <img
-                src="../assets/img/hotel.jpg"
+                src="../assets/img/マイポートフォリオ.png"
                 alt=""
                 class="img-fluid"
               >
@@ -189,10 +189,7 @@
           <v-list-item class="personal__content__title">
             <v-list-item-content>
               <div class="content-subtitle">
-                <p>・共同開発での開発フロー、コミュニケーションの取り方、
-                      Git/GitHubの使い方を経験することが目的</p>
-                <p>・開発期間は3週間</p>
-                <p>・現役エンジニア1名＋3名で制作</p>
+                <p>・マイポートフォリオサイト</p>
               </div>
             </v-list-item-content>
           </v-list-item>
@@ -213,7 +210,7 @@
               <div class="content-subtitle">
                 <h3>
                   <v-icon>mdi-github</v-icon>
-                  <a href="https://github.com/jojojo0501/tenkue-hotel-r018">GitHub</a>
+                  <a href="https://github.com/oga0927/my_portfolio">GitHub</a>
                 </h3>
               </div>
             </v-list-item-content>
@@ -229,14 +226,10 @@
           <v-list-item class="personal__content__title">
             <v-list-item-content>
               <div class="content-subtitle">
-                <p>・チームリーダーを担当</p>
-                <p>・Trelloのガントチャートでタスク管理</p>
-                <p>・メインビューの配色には暖色をメインに作成</p>
-                <p>・GitHubでソースコードを管理</p>
-                <p>・ブランチの作成</p>
-                <p>・CSS設計：FLOCSS記法の学習</p>
-                <p>・Gitコマンド（プルリク等）の操作</p>
-                <p>・slackで進捗の報告</p>
+                <p>・Vue.js(Vuetify)を使用してSPAサイトを制作</p>
+                <p>・レスポンシブ対応</p>
+                <p>・制作期間１週間</p>
+                <p>・これまでの活動内容を掲載</p>
               </div>
             </v-list-item-content>
           </v-list-item>
@@ -251,20 +244,21 @@
           <v-list-item class="personal__content__title">
             <v-list-item-content>
               <div class="content-subtitle">
-                <p>HTML / CSS / JavaScript / jQuery / EJS / Node.js</p>
-                <p>CSS設計：FLOCSS</p>
+                <p>Vue.js / Vue/CLI / VueRouter / Vuetify / JavaScript / CSS / sass</p>
                 <p>Webサーバー: Netlify</p>
-                <p>制作担当ページ: Header / ハンバーガーメニュー / Footer / AreaGuide</p>
-                <p>ツール: gulp / Webpack / Trello</p>
               </div>
             </v-list-item-content>
           </v-list-item>
           </v-col>
         </v-row>
       </v-row>
+      <div class="product__title">
+        <div class="product__title-text font-weight-bold">共同開発</div>
+      </div>
       <v-row>
-        <v-card-title class="justify-center products-title">
-          共同開発
+        <v-card-title class="justify-center products-title font-weight-bold">
+          共同開発<br>
+          架空HOTELサイト
         </v-card-title>
           <v-row justify="center" align-content="center">
             <v-col
