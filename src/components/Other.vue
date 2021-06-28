@@ -5,90 +5,96 @@
       <div class="product__title-text">Other</div>
     </div>
     <v-container>
-    <v-card-title class="justify-center products-title">
-      もくもく会主催
-    </v-card-title>
-      <v-row justify="center" align-content="center">
-        <v-col
-          sm="5"
-          md="6"
-          cols="12"
-          class="about__contents-img"
-        >
-          主催したオンラインもくもく会の集合写真
-          <img src="../assets/img/もくもく会主催.png" alt="" class="img-fluid">
-        </v-col>
-        <v-col
-          sm="5"
-          md="6"
-          cols="12"
-        >
-      <div class="personal" flex>
-        <v-icon
-          xlarge
-          color="orange darken-2"
-          size="48"
-          class="contents-icon"
-        >
-          mdi-rocket-launch
-        </v-icon>
-        <div class="content__title">
-          <h2>こだわりのポイント</h2>
-        </div>
-      </div>
-      <v-list-item class="personal__content__title">
-        <v-list-item-content>
-          <div class="content-subtitle">
-            <p>・週に２〜3でもくもく会に参加し、その後もくもく会を主催</p>
-            <p>・2時間のもくもく会、20分は質問タイム、活発に意見交換を行う</p>
-            <p>・現役エンジニアとのコミュニケーションを形成</p>
-            <p class="red-bold">物怖じしない性格、企画力、実行力、コミュニケーション能力があります</p>
+      <v-row>
+        <v-card-title class="justify-center products-title">
+          もくもく会主催
+        </v-card-title>
+          <v-row justify="center" align-content="center">
+            <v-col
+              sm="5"
+              md="6"
+              cols="12"
+              class="about__contents-img"
+            >
+              主催したオンラインもくもく会の集合写真
+              <img src="../assets/img/もくもく会主催.png" alt="" class="img-fluid">
+            </v-col>
+            <v-col
+              sm="5"
+              md="6"
+              cols="12"
+            >
+          <div class="personal" flex>
+            <v-icon
+              xlarge
+              color="orange darken-2"
+              size="48"
+              class="contents-icon"
+            >
+              mdi-rocket-launch
+            </v-icon>
+            <div class="content__title">
+              <h2>こだわりのポイント</h2>
+            </div>
           </div>
-        </v-list-item-content>
-      </v-list-item>
-      </v-col>
-    </v-row>
-    <v-card-title class="justify-center products-title">
-      LT登壇
-    </v-card-title>
-      <v-row justify="center" align-content="center">
-        <v-col
-          sm="6"
-          md="6"
-          cols="12"
-          class="about__contents-img"
-        >
-          オンラインLT登壇に参加
-          <img src="../assets/img/LT登壇.jpg" alt="" class="img-fluid">
-        </v-col>
-        <v-col
-          sm="6"
-          md="6"
-          cols="12"
-        >
-      <div class="personal" flex>
-        <v-icon
-          xlarge
-          color="orange darken-2"
-          size="48"
-          class="contents-icon"
-        >
-          mdi-rocket-launch
-        </v-icon>
-        <div class="content__title">
-          <h2>こだわりのポイント</h2>
-        </div>
-      </div>
-      <v-list-item class="personal__content__title">
-        <v-list-item-content>
-          <div class="content-subtitle">
-            <p>・テーマは「なぜエンジニアを目指したのか」</p>
-            <p>・LT大会に5分間の紹介/10分質問タイム</p>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <p>・週に２〜3でもくもく会に参加し、その後もくもく会を主催</p>
+                <p>・2時間のもくもく会、20分は質問タイム、活発に意見交換を行う</p>
+                <p>・現役エンジニアとのコミュニケーションを形成</p>
+                <p class="red-bold">物怖じしない性格、企画力、実行力、コミュニケーション能力があります</p>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          </v-col>
+        </v-row>
+      </v-row>
+      <v-row class="mt-10">
+        <v-card-title class="justify-center products-title">
+          LT登壇
+        </v-card-title>
+          <v-row justify="center" align-content="center">
+            <v-col
+              sm="6"
+              md="6"
+              cols="12"
+              class="about__contents-img"
+            >
+              オンラインLT登壇に参加
+              <img src="../assets/img/LT登壇.jpg" alt="" class="img-fluid">
+            </v-col>
+            <v-col
+              sm="6"
+              md="6"
+              cols="12"
+            >
+          <div class="personal" flex>
+            <v-icon
+              xlarge
+              color="orange darken-2"
+              size="48"
+              class="contents-icon"
+            >
+              mdi-rocket-launch
+            </v-icon>
+            <div class="content__title">
+              <h2>こだわりのポイント</h2>
+            </div>
           </div>
-        </v-list-item-content>
-      </v-list-item>
-      </v-col>
-    </v-row>
+          <v-list-item class="personal__content__title">
+            <v-list-item-content>
+              <div class="content-subtitle">
+                <p>・テーマは「なぜエンジニアを目指したのか」</p>
+                <p>・LT大会に5分間の紹介/10分質問タイム</p>
+              </div>
+            </v-list-item-content>
+          </v-list-item>
+          </v-col>
+        </v-row>
+
+      </v-row>
+    <v-row class="mt-10">
     <v-card-title class="justify-center products-title">
       ロゴ作成
     </v-card-title>
@@ -139,6 +145,7 @@
         </v-list-item-content>
       </v-list-item>
       </v-col>
+    </v-row>
     </v-row>
     </v-container>
   </section>
