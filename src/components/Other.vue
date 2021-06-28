@@ -9,19 +9,27 @@
       もくもく会主催
     </v-card-title>
       <v-row justify="center" align-content="center">
-        <v-col sm="5" md="5" col="12" class="about__contents-img">
+        <v-col
+          sm="5"
+          md="6"
+          cols="12"
+          class="about__contents-img"
+        >
           主催したオンラインもくもく会の集合写真
-          <v-icon
-            dark
-            right
-          >
-            mdi-checkbox-marked-circle
-          </v-icon>
           <img src="../assets/img/もくもく会主催.png" alt="" class="img-fluid">
         </v-col>
-      <v-col sm="6" md="6" col="12">
+        <v-col
+          sm="5"
+          md="6"
+          cols="12"
+        >
       <div class="personal" flex>
-        <v-icon xlarge color="orange darken-2" size="48" class="contents-icon">
+        <v-icon
+          xlarge
+          color="orange darken-2"
+          size="48"
+          class="contents-icon"
+        >
           mdi-rocket-launch
         </v-icon>
         <div class="content__title">
@@ -44,19 +52,27 @@
       LT登壇
     </v-card-title>
       <v-row justify="center" align-content="center">
-        <v-col sm="5" md="5" col="12" class="about__contents-img">
-      オンラインLT登壇に参加
-          <v-icon
-            dark
-            right
-          >
-            mdi-checkbox-marked-circle
-          </v-icon>
+        <v-col
+          sm="6"
+          md="6"
+          cols="12"
+          class="about__contents-img"
+        >
+          オンラインLT登壇に参加
           <img src="../assets/img/LT登壇.jpg" alt="" class="img-fluid">
         </v-col>
-      <v-col sm="6" md="6" col="12">
+        <v-col
+          sm="6"
+          md="6"
+          cols="12"
+        >
       <div class="personal" flex>
-        <v-icon xlarge color="orange darken-2" size="48" class="contents-icon">
+        <v-icon
+          xlarge
+          color="orange darken-2"
+          size="48"
+          class="contents-icon"
+        >
           mdi-rocket-launch
         </v-icon>
         <div class="content__title">
@@ -68,6 +84,55 @@
           <div class="content-subtitle">
             <p>・テーマは「なぜエンジニアを目指したのか」</p>
             <p>・LT大会に5分間の紹介/10分質問タイム</p>
+          </div>
+        </v-list-item-content>
+      </v-list-item>
+      </v-col>
+    </v-row>
+    <v-card-title class="justify-center products-title">
+      ロゴ作成
+    </v-card-title>
+      <v-row justify="center" align-content="center">
+        <v-col
+          sm="6"
+          md="6"
+          cols="12"
+          class="about__contents-img"
+          >
+            企業ロゴ作成
+          <v-icon
+            dark
+            right
+          >
+            mdi-checkbox-marked-circle
+          </v-icon>
+          <img src="../assets/img/別案①WEB用.png" alt="" class="img-fluid">
+          <img src="../assets/img/Nfamiliar.jpg" alt="">
+        </v-col>
+        <v-col
+          sm="6"
+          md="6"
+          cols="12"
+        >
+      <div class="personal" flex>
+        <v-icon
+          xlarge
+          color="orange darken-2"
+          size="48"
+          class="contents-icon"
+        >
+          mdi-rocket-launch
+        </v-icon>
+        <div class="content__title">
+          <h2>こだわりのポイント</h2>
+        </div>
+      </div>
+      <v-list-item class="personal__content__title">
+        <v-list-item-content>
+          <div class="content-subtitle">
+            <p>・インスタグラムにてロゴコンペに参加</p>
+            <p>・要件定義に基づいて２社ロゴを制作</p>
+            <p>・N familiar様に作成したロゴが採用</p>
           </div>
         </v-list-item-content>
       </v-list-item>
@@ -118,7 +183,7 @@ export default {
 
 .content__title {
   color: grey;
-  padding-left: 10px;
+  // padding-left: 10px;
 }
 
 .personal__text-indent {
@@ -134,7 +199,7 @@ export default {
   color: #616161 !important;
   line-height: 1.2;
   font-size: 16px;
-  padding-left: 40px;
+  // padding-left: 40px;
 }
 
 .personal__content__title {
