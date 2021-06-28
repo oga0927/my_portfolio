@@ -132,7 +132,9 @@
           <div class="content-subtitle">
             <p>・インスタグラムにてロゴコンペに参加</p>
             <p>・要件定義に基づいて２社ロゴを制作</p>
-            <p>・N familiar様に作成したロゴが採用</p>
+            <p>・N familiar様に作成したロゴが採用されました！</p>
+            <p class="red-bold">独学でデザインツールを習得</p>
+            <p class="red-bold">初のロゴ作成、何事もチャレンジすることを心がけています</p>
           </div>
         </v-list-item-content>
       </v-list-item>
