@@ -7,29 +7,29 @@
       <v-row class="home-service__contents">
         <v-col md="3">
           <v-card
-            to="/service#direction"
+            to="/work"
             hover
           >
 
             <div class="home-service__card-img">
-              <img class="icon--service" src="../assets/img/shalibo.jpg" alt="ディレクション">
+              <img class="icon--service" src="../assets/img/shalibo.jpg" alt="">
             </div>
           </v-card>
         </v-col>
         <v-col md="3">
           <v-card
-            to="/service#coding"
+            to="/work"
             hover
           >
 
             <div class="home-service__card-img">
-              <img class="icon--service" src="../assets/img/hotel.jpg" alt="コーディング">
+              <img class="icon--service" src="../assets/img/hotel.jpg" alt="">
             </div>
           </v-card>
         </v-col>
         <v-col md="3">
           <v-card
-            to="/service#design"
+            to="/work"
             hover
           >
 

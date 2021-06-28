@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home.vue'
 import About from '@/components/About.vue'
 import Work from '@/components/Work.vue'
+import Other from '@/components/Other.vue'
 // import Skill from '@/components/Skill.vue'
 // import Contact from '@/components/Contact.vue'
 
@@ -24,12 +25,12 @@ export default new Router({
       path: '/work',
       name: 'work',
       component: Work
+    },
+    {
+      path: '/other',
+      name: 'other',
+      component: Other
     }
-    // {
-    //   path: '/contact',
-    //   name: 'contact',
-    //   component: Contact
-    // }
   ],
   // ここから追加
   scrollBehavior (to, from, savedPosition) {
