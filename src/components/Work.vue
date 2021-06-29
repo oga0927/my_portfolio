@@ -47,7 +47,7 @@
                 color="orange darken-2"
                 size="48"
               >
-                mdi-account
+                mdi-pin
               </v-icon>
               <div class="content__title">
                 <h2>アプリの概要</h2>
@@ -68,7 +68,7 @@
                 color="orange darken-2"
                 size="48"
               >
-                mdi-escalator
+                mdi-hammer-wrench
               </v-icon>
               <div class="content__title">
                 <h2>ソースコード</h2>
@@ -90,7 +90,7 @@
                 color="orange darken-2"
                 size="48"
               >
-                mdi-rocket-launch
+                mdi-jabber
               </v-icon>
               <div class="content__title">
                 <h2>こだわりのポイント</h2>
@@ -180,7 +180,7 @@
               color="orange darken-2"
               size="48"
             >
-              mdi-account
+              mdi-pin
             </v-icon>
             <div class="content__title">
               <h2>アプリの概要</h2>
@@ -197,8 +197,12 @@
             </v-list-item-content>
           </v-list-item>
           <div class="personal" flex>
-            <v-icon xlarge color="orange darken-2" size="48">
-              mdi-escalator
+            <v-icon
+              xlarge
+              color="orange darken-2"
+              size="48"
+            >
+              mdi-hammer-wrench
             </v-icon>
             <div class="content__title">
               <h2>ソースコード</h2>
@@ -216,7 +220,7 @@
           </v-list-item>
           <div class="personal" flex>
             <v-icon xlarge color="orange darken-2" size="48">
-              mdi-rocket-launch
+              mdi-jabber
             </v-icon>
             <div class="content__title">
               <h2>こだわりのポイント</h2>
