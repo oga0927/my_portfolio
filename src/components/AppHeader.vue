@@ -3,6 +3,8 @@
       <v-app-bar
         app
         dark
+
+        absolute
       >
         <v-toolbar-title>MyPortfolio</v-toolbar-title>
         <v-tabs
@@ -16,7 +18,7 @@
           </v-tab>
         </v-tabs>
         <!-- ハンバーガーアイコン -->
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       </v-app-bar>
 
       <!-- temporaryはアプリケーションの一番上の層で表示させることが可能。
@@ -25,6 +27,7 @@
         v-model="drawer"
         fixed
         temporary
+        right
       >
       <v-list
         nav
@@ -58,8 +61,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "@/assets/sass/_mixin.scss";
+@import "@/assets/sass/_parts.scss";
 
 .v-toolbar__title {
   overflow: visible !important;
@@ -74,10 +78,10 @@ export default {
 
 .v-tabs {
   display: none;
-  display: none;
 
   @include display_pc {
     display: block !important;
   }
 }
+
 </style>
