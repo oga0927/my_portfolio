@@ -1,7 +1,7 @@
 <template>
   <section class="home-service" id="home-service">
     <div class="section__title">
-      <div class="section__title-text">02. My Service</div>
+      <div class="section__title-text">02. My Portfolio</div>
     </div>
     <v-container>
       <v-row class="home-service__contents">
@@ -45,11 +45,9 @@
 @import "@/assets/sass/_mixin.scss";
 
 #home-service {
-  background-color: hotpink;
+  background-color: #f5f5f5;
   padding: 100px 0;
   margin-top: 50px;
-  // margin: 100px 0;
-  // text-align: center;
 }
 .home-service__contents {
   margin-top: 20px;
@@ -57,7 +55,10 @@
 }
 
 img {
-  height: 220px;
+
+  @include display_pc {
+    height: 220px;
+  }
 }
 
 .v-window {
