@@ -11,6 +11,22 @@
   </section>
 </template>
 
+<script>
+// import FadeIn from './FadeIn.vue'
+
+export default {
+  components: {
+    // FadeIn
+
+  },
+  data () {
+    return {
+
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 @import "@/assets/sass/_mixin.scss";
 
