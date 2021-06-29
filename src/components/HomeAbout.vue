@@ -1,5 +1,5 @@
 <template>
-  <section class="home-about">
+  <section class="home-about" id="home-about">
     <div class="section__title">
       <div class="section__title-text">01. About Me</div>
     </div>
@@ -42,6 +42,10 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/sass/_parts.scss";
 
+#home-about {
+  padding: 100px 0;
+  margin-top: 50px;
+}
 .home-about__contents {
   margin-top: 20px;
   justify-content: center;
