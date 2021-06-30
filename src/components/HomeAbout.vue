@@ -10,6 +10,8 @@
           <img src="../assets/img/IMG_6093 2.jpg" alt="" class="img-fluid">
         </v-col>
         <v-col sm="5" md="5" cols="12" class="home-about__contents-text">
+          <h1>Profile</h1>
+          <p>小笠原 翔一</p>
           <p>東京出身。
               専門卒業後、飲食店で勤務していたのがきっかけで、デザインの学習とプログラミングに興味をもつ。
               UI/UXを意識したデザインの設計からモダンなフロントエンド開発ができるエンジニアを目指し日々勉強中です。</p>
