@@ -19,11 +19,7 @@
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 50vh;
-
-    @include display_pc {
-      height: 95vh;
-    }
+    height: 95vh;
 
     &-text {
       font-size: 28px;
