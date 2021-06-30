@@ -2,7 +2,7 @@
   <section class="about">
     <!-- <AppBackgroundHolder :title="title"/> -->
     <div class="profile__title">
-      <div class="profile__title-text">Portfolio</div>
+      <div class="profile__title-text">About Me</div>
     </div>
 
     <v-container>
@@ -207,6 +207,9 @@ export default {
   text-align: center;
   margin-top: 20px;
   font-size: 32px;
+  font-weight: 500;
+  color: #757575;
+  letter-spacing: 5px !important;
 }
 .personal {
   display: flex;
