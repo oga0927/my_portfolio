@@ -20,6 +20,8 @@
               class="ma-2"
               color="primary"
               dark
+              href="https://shalibo.netlify.app/"
+              target="_blank"
             >
               制作したアプリのリンク
             <v-icon
@@ -28,7 +30,6 @@
             >
               mdi-checkbox-marked-circle
             </v-icon>
-              <a href="https://shalibo.netlify.app/"></a>
             </v-btn>
             <img
               src="../assets/img/shalibo.jpg"
@@ -153,6 +154,8 @@
                 class="ma-2"
                 color="primary"
                 dark
+                href="https://oga-portfolio-site.netlify.app"
+                target="_blank"
               >
                 制作したアプリのリンク
               <v-icon
@@ -161,7 +164,6 @@
               >
                 mdi-checkbox-marked-circle
               </v-icon>
-                <a href="https://tenkuehotel-r018.netlify.app/"></a>
               </v-btn>
               <img
                 src="../assets/img/マイポートフォリオ.png"
@@ -271,6 +273,8 @@
                 class="ma-2"
                 color="primary"
                 dark
+                href="https://tenkuehotel-r018.netlify.app/"
+                target="_blank"
               >
                 制作したアプリのリンク
               <v-icon
@@ -279,7 +283,6 @@
               >
                 mdi-checkbox-marked-circle
               </v-icon>
-                <a href="https://tenkuehotel-r018.netlify.app/"></a>
               </v-btn>
               <img
                 src="../assets/img/hotel.jpg"
