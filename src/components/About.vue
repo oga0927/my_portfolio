@@ -71,10 +71,11 @@
               メニュー作成、月間イベント実施の企画立案、システム改善依頼業務を実施。
               退職率が60％という状況を、全従業員30名への1人1人とヒヤリングの実施やその他様々な打手を行い、
               在籍<span class="red-bold">7年間で5%にまで改善に成功しました。</span>
-              独自の接客トークマニュアル、ドリンクイベントの実施で<span class="red-bold">年間売上げ達成率103%達成</span>しました。
+              独自の接客トークマニュアル、 人気商品だったメニューの復刻祭や各商品の販売価格、売上金額、販売個数をデータ分析して、
+              上位20位の定番商品を厳選して販売した結果、<span class="red-bold">年間売上げ達成率103%達成</span>しました。
             </p>
           </div>
-          <div class="parsonal-subtitle">
+          <!-- <div class="parsonal-subtitle">
             <p>2019年5月 : 株式会社京急ビルテック 出向</p>
           </div>
           <div class="personal__text-indent">
@@ -84,7 +85,7 @@
             </p>
             <p>・2021年7月31日 : 退職予定</p>
             <p>・現在転職活動中</p>
-          </div>
+          </div> -->
         </v-list-item-content>
       </v-list-item>
       <div class="personal" flex>
@@ -103,19 +104,25 @@
           <div class="personal__text-indent">
             <p>【学習言語・フレームワーク】</p>
             <ul>
-              <li>HTML</li>
+              <li>HTML / CSS（CSS設計：FROCCS記法）/ Sass</li>
               <li>EJS</li>
-              <li>CSS（CSS設計：FROCCS記法）</li>
-              <li>Sass</li>
               <li>JavaScript（条件分岐、繰り返し処理、配列、非同期通信）</li>
               <li>jQuery</li>
-              <li>Vue.js</li>
+              <li>Vue.js（VueCLI、VueRouter、Vuex、Vuetify）</li>
+              <li>Nuxt.js</li>
               <li>Node.js</li>
               <li>Firebase(Authentication、Realtime Database、Storage)</li>
               <li>GoogleBooksAPIの導入経験あり</li>
+              <li>Netlifyへのデプロイ経験</li>
             </ul>
-            <p>【その他】Git・GitHubを用いたチーム開発のリーダーを経験</p>
+            <br><br>
+            <p>【その他】</p>
+            <ul>
+              <li>GitHub ( commit, pull, ブランチ、プルリクエスト, レビュー ）</li>
+              <li>GitHubを用いたチーム開発（チーム開発のリーダーを経験）</li>
+            </ul>
             <p>成果物についてはworkをご参照ください</p>
+
           </div>
         </v-list-item-content>
       </v-list-item>
@@ -131,7 +138,7 @@
         <v-list-item-content>
           <div class="parsonal-subtitle">
             <p>飲食業界からIT企業を志した理由は<br><br>
-              <span class="red-bold">「大きな変化による価値を生み出し、多くの人の役に立ちたい」」</span>からです。
+              <span class="red-bold">「大きな変化による価値を生み出し、多くの人の役に立ちたい」</span>からです。
             </p>
           </div>
         </v-list-item-content>
