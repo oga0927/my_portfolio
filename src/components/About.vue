@@ -88,7 +88,7 @@
       <v-list-item class="personal__career">
         <v-list-item-content>
           <div class="parsonal-subtitle">
-              <p class="red-bold">2021年6月現在まで270日以上、休むことなくを継続しています。</p>
+              <p class="red-bold">2021年7月現在まで270日以上、休むことなくを継続しています。</p>
           </div>
           <div class="personal__text-indent">
             <p>【学習言語・フレームワーク】</p>
