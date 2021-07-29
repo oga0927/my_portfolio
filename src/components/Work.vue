@@ -101,15 +101,13 @@
               <v-list-item-content>
                 <div class="content-subtitle">
                   <p>・本の検索機能(Ajax)</p>
-                  <p>・投稿内容編集機能(CRUD)</p>
-                  <p>・本の登録機能(CRUD)</p>
+                  <p>・投稿の内容の更新(CRUD)</p>
+                  <p>・本の追加機能(CRUD)</p>
+                  <p>・本の削除機能(CRUD)</p>
                   <p>・検索、記録、保存の3ステップ</p>
                   <p>・読んだ本の内容を質問に答えてアウトプット</p>
                   <p>・ファーストビューは一眼でわかる画像と、何をするアプリなのかが伝わるように作成</p>
                   <p>・フォームにバリデーションを実装</p>
-                  <p>・再描画でLocalStorageのデータが初期化されないよう設定</p>
-                  <p>・vuex-persistedstateをインストールで、vuexのstateの中身を維持</p>
-                  <p>・vuex-persistedstateの設定をvuexのStoreのpluginsに設定</p>
                 </div>
               </v-list-item-content>
             </v-list-item>
@@ -131,8 +129,7 @@
                   <p>Vue.js / Vue/CLI / VueRouter / Vuex / Vuetify / JavaScript / CSS</p>
                   <p>API: GoogleBooksAPI</p>
                   <p>Webサーバー: Netlify</p>
-                  <p>DB: WebStorage(LocalStorage)</p>
-                  <p>DB(認証のみ): Firebase(Authentication)</p>
+                  <p>DB: Firebase( Authentication、Realtime Database )</p>
                 </div>
               </v-list-item-content>
             </v-list-item>
