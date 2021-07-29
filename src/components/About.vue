@@ -75,17 +75,6 @@
               上位20位の定番商品を厳選して販売した結果、<span class="red-bold">年間売上げ達成率103%達成</span>しました。
             </p>
           </div>
-          <!-- <div class="parsonal-subtitle">
-            <p>2019年5月 : 株式会社京急ビルテック 出向</p>
-          </div>
-          <div class="personal__text-indent">
-            <p>課題点を分析して、作業マニュアル作成により、施設内での移動時間が<span class="red-bold">20分以上短縮に成功</span>しました。
-              施設管理責任者の方から以前の業務体系より<span class="red-bold">安心して任せれると評価を得る。</span><br>
-              課題点を明確化するための「分析力」と周囲を巻き込みながら課題解決していく力を学びました。
-            </p>
-            <p>・2021年7月31日 : 退職予定</p>
-            <p>・現在転職活動中</p>
-          </div> -->
         </v-list-item-content>
       </v-list-item>
       <div class="personal" flex>
@@ -99,19 +88,18 @@
       <v-list-item class="personal__career">
         <v-list-item-content>
           <div class="parsonal-subtitle">
-              <p class="red-bold">2021年6月現在まで240日以上、休むことなくを継続しています。</p>
+              <p class="red-bold">2021年7月現在まで270日以上、休むことなくを継続しています。</p>
           </div>
           <div class="personal__text-indent">
             <p>【学習言語・フレームワーク】</p>
             <ul>
-              <li>HTML / CSS（CSS設計：FROCCS記法）/ Sass</li>
-              <li>EJS</li>
+              <li>Vue.js（VueCLI、VueRouter、Vuex、Vuetify）</li>
               <li>JavaScript（条件分岐、繰り返し処理、配列、非同期通信）</li>
               <li>jQuery</li>
-              <li>Vue.js（VueCLI、VueRouter、Vuex、Vuetify）</li>
               <li>Nuxt.js</li>
               <li>Node.js</li>
-              <li>Firebase(Authentication、Realtime Database、Storage)</li>
+              <li>Firebase(Authentication、Realtime Database)</li>
+              <li>HTML / CSS（CSS設計：FROCCS記法）/ Sass</li>
               <li>GoogleBooksAPIの導入経験あり</li>
               <li>Netlifyへのデプロイ経験</li>
             </ul>
@@ -121,6 +109,7 @@
               <li>GitHub ( commit, pull, ブランチ、プルリクエスト, レビュー ）</li>
               <li>GitHubを用いたチーム開発（チーム開発のリーダーを経験）</li>
             </ul>
+            <br>
             <p>成果物についてはworkをご参照ください</p>
 
           </div>
